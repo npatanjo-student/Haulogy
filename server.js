@@ -51,3 +51,9 @@ const port = 3000;
 app.listen(port, () => {
   console.log('server has started');
 });
+
+
+/* DEBUG. Mongo must be running before the server is running
+ * TOFIX: Make a data file then run mongo and port the data 
+ * to the data file created.
+*/
